@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240305153006">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo icon _icon-logo"></a>
+				<nav hidden class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#main" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="#gallery" class="menu__link">Галерея</a></li>
+							<li class="menu__item"><a href="#video" class="menu__link">Видео</a></li>
+							<li class="menu__item"><a href="#links" class="menu__link">Ссылки</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+
+		<main class="page page_home">
+			<section class="home__block" id="main">
+				<div class="home__container">
+					<div class="home__grid">
+						<picture><source srcset="img/mainpage/main-block/emotions.webp" type="image/webp"><img class="home__img" src="img/mainpage/main-block/emotions.jpg" alt=""></picture>
+					</div>
+					<div class="home__image">
+						<picture><source srcset="img/mainpage/main-block/donnie.webp" type="image/webp"><img src="img/mainpage/main-block/donnie.jpg" alt="image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="info__block" id="info">
+				<div class="info__container">
+					<div class="info__title-body">
+						<h1 class="info__title title">Хамит Аркаев</h1>
+						<p class="info__subtitle">Актер</p>
+					</div>
+					<ul class="info__list">
+						<li class="info__item">Возраст<span>38</span></li>
+						<li class="info__item">Гражданство<span>Казахстан</span></li>
+						<li class="info__item">Рост<span>180см</span></li>
+						<li class="info__item">Вес<span>65кг</span></li>
+						<li class="info__item">Пол<span>мужской</span></li>
+						<li class="info__item">Телосложение<span>худощавое</span></li>
+					</ul>
+				</div>
+			</section>
+			<section class="gallery" id="gallery">
+				<div class="gallery__container">
+					<h2 class="gallery__title title">Фото</h2>
+					<div data-gallery class="gallery__images">
+						<a href="img/mainpage/gallery/1a.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/1a-s.webp" type="image/webp"><img alt="img1" src="img/mainpage/gallery/thumbnails/1a-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/4b.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/4b-s.webp" type="image/webp"><img alt="img2" src="img/mainpage/gallery/thumbnails/4b-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/2a.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/2a-s.webp" type="image/webp"><img alt="img1" src="img/mainpage/gallery/thumbnails/2a-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/2b.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/2b-s.webp" type="image/webp"><img alt="img2" src="img/mainpage/gallery/thumbnails/2b-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/1b.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/1b-s.webp" type="image/webp"><img alt="img2" src="img/mainpage/gallery/thumbnails/1b-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/3a.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/3a-s.webp" type="image/webp"><img alt="img1" src="img/mainpage/gallery/thumbnails/3a-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/4a.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/4a-s.webp" type="image/webp"><img alt="img1" src="img/mainpage/gallery/thumbnails/4a-s.jpg" class="gallery__preview" /></picture>
+						</a>
+						<a href="img/mainpage/gallery/3b.jpg" class="gallery__image">
+							<picture><source srcset="img/mainpage/gallery/thumbnails/3b-s.webp" type="image/webp"><img alt="img2" src="img/mainpage/gallery/thumbnails/3b-s.jpg" class="gallery__preview" /></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="video" id="video">
+				<div class="video__container">
+					<h2 class="video__title title">Видео</h2>
+					<div data-gallery class="video__block">
+						<!-- YouTube Video  1 --->
+						<a data-lg-size="1280-720" data-src="https://youtu.be/5vc9Su45chw?si=XTw__4qw-1X0Cu9s" data-poster="img/mainpage/video/poster/1.jpg" data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>">
+							<picture><source srcset="img/mainpage/video/poster/1.webp" type="image/webp"><img class="img-responsive" src="img/mainpage/video/poster/1.jpg" /></picture>
+						</a>
+						<!-- YouTube Video 2 --->
+						<a data-lg-size="1280-720" data-src="https://youtu.be/5vc9Su45chw?si=XTw__4qw-1X0Cu9s" data-poster="img/mainpage/video/poster/2.jpg" data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>">
+							<picture><source srcset="img/mainpage/video/poster/2.webp" type="image/webp"><img class="img-responsive" src="img/mainpage/video/poster/2.jpg" /></picture>
+						</a>
+						<!-- YouTube Video 3 --->
+						<a data-lg-size="1280-720" data-src="https://youtu.be/5vc9Su45chw?si=XTw__4qw-1X0Cu9s" data-poster="img/mainpage/video/poster/3.jpg" data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>">
+							<picture><source srcset="img/mainpage/video/poster/3.webp" type="image/webp"><img class="img-responsive" src="img/mainpage/video/poster/3.jpg" /></picture>
+						</a>
+						<!-- YouTube Video 4 --->
+						<a data-lg-size="1280-720" data-src="https://youtu.be/5vc9Su45chw?si=XTw__4qw-1X0Cu9s" data-poster="img/mainpage/video/poster/4.jpg" data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>">
+							<picture><source srcset="img/mainpage/video/poster/4.webp" type="image/webp"><img class="img-responsive" src="img/mainpage/video/poster/4.jpg" /></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="links" id="links">
+				<div class="links__container">
+					<h2 class="links__title title">Ссылки</h2>
+					<ul class="links__list">
+						<li class="links__item"><a href="#" class="links__link">Kinopoisk</a></li>
+						<li class="links__item"><a href="#" class="links__link">Akteram.com</a></li>
+						<li class="links__item"><a href="#" class="links__link">KinoLift</a></li>
+						<li class="links__item"><a href="#" class="links__link">EtalentsPro</a></li>
+						<li class="links__item"><a href="#" class="links__link">FilmToolz</a></li>
+						<li class="links__item"><a href="#" class="links__link">IMDB</a></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__social-icons">
+					<a href="#" class="icon _icon-facebook"></a>
+					<a href="#" class="icon _icon-instagram"></a>
+					<a href="#" class="icon _icon-telegram"></a>
+				</div>
+				<a href="#" class="copy__rights"> &#169; 2024 Developed by Hama-Web</a>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240305153006"></script>
+</body>
+
+</html>
